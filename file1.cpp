@@ -10,3 +10,8 @@ class Node{
         next = NULL;
     }
 };
+
+// Stack class
+class Stack{
+
+};
