@@ -107,5 +107,7 @@ int main(){
                 cout << "Invalid choice. Tray again." << endl;
                 break;
         }
+        cout << endl;
     }
+    return 0;
 }
