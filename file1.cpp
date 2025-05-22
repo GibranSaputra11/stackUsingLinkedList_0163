@@ -80,10 +80,10 @@ int main(){
 
         switch(choice){
             case 1:
-            cout << "Enter the value to push: ";
-            cin >> value;
-            stack.push(value); // Push the enterd value onto the stack
-            break;
+                cout << "Enter the value to push: ";
+                cin >> value;
+                stack.push(value); // Push the enterd value onto the stack
+                break;
         }
     }
 }
