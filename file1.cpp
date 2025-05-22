@@ -3,15 +3,20 @@ using namespace std;
 
 //Node class representing a single node in the linked list
 class Node{
-    int data;
-    Node* next;
+    public:
+        int data;
+        Node* next;
 
-    Node(){
-        next = NULL;
-    }
-};
+        Node(){
+            next = NULL;
+        }
+};  
 
 // Stack class
 class Stack{
+    private:
+        Node* top; //Pointer to the top node of the stack
+
+    
 
 };
